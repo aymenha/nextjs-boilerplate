@@ -2,4 +2,4 @@ This project was bootstrapped with [Create Next App](https://github.com/segmenti
 
 A NextJs boilerplate with **Typescript** support, **styled-components** and **Storybook** out-of-the-box.
 
-#### Note: This is intended for personal use, and not meant to be maintained or kept up to date (unless i need it to quickly scaffold a new project)
+#### Note: The dependencies are meant to be always up-to-date, so breaking changes (if any) should/could be expecetd between major versions.
