@@ -7651,6 +7651,21 @@ let packageInformationStores = new Map([
         ["styled-jsx", "3.2.2"],
       ]),
     }],
+    ["3.2.3", {
+      packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-styled-jsx-3.2.3-c3b160a0622c892485103d0fef855347d78b9b67-integrity/node_modules/styled-jsx/"),
+      packageDependencies: new Map([
+        ["react", "16.11.0"],
+        ["babel-plugin-syntax-jsx", "6.18.0"],
+        ["babel-types", "6.26.0"],
+        ["convert-source-map", "1.6.0"],
+        ["loader-utils", "1.2.3"],
+        ["source-map", "0.7.3"],
+        ["string-hash", "1.1.3"],
+        ["stylis", "3.5.4"],
+        ["stylis-rule-sheet", "pnp:f92b9f7358cf4e743133435a41cf8baaf2bee104"],
+        ["styled-jsx", "3.2.3"],
+      ]),
+    }],
   ])],
   ["babel-types", new Map([
     ["6.26.0", {
@@ -7695,6 +7710,13 @@ let packageInformationStores = new Map([
       packageDependencies: new Map([
         ["stylis", "3.5.4"],
         ["stylis-rule-sheet", "pnp:d12011ec2d73070fe6772d40922960485f703c0d"],
+      ]),
+    }],
+    ["pnp:f92b9f7358cf4e743133435a41cf8baaf2bee104", {
+      packageLocation: path.resolve(__dirname, "./.pnp/externals/pnp-f92b9f7358cf4e743133435a41cf8baaf2bee104/node_modules/stylis-rule-sheet/"),
+      packageDependencies: new Map([
+        ["stylis", "3.5.4"],
+        ["stylis-rule-sheet", "pnp:f92b9f7358cf4e743133435a41cf8baaf2bee104"],
       ]),
     }],
   ])],
@@ -9020,13 +9042,21 @@ let packageInformationStores = new Map([
     ["1.0.1", {
       packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-move-concurrently-1.0.1-be2c005fda32e0b29af1f05d7c4b33214c701f92-integrity/node_modules/move-concurrently/"),
       packageDependencies: new Map([
-        ["copy-concurrently", "1.0.5"],
         ["aproba", "1.2.0"],
+        ["copy-concurrently", "1.0.5"],
         ["fs-write-stream-atomic", "1.0.10"],
         ["mkdirp", "0.5.1"],
         ["rimraf", "2.7.1"],
         ["run-queue", "1.0.3"],
         ["move-concurrently", "1.0.1"],
+      ]),
+    }],
+  ])],
+  ["aproba", new Map([
+    ["1.2.0", {
+      packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-aproba-1.2.0-6802e6264efd18c790a1b0d517f0f2627bf2c94a-integrity/node_modules/aproba/"),
+      packageDependencies: new Map([
+        ["aproba", "1.2.0"],
       ]),
     }],
   ])],
@@ -9041,14 +9071,6 @@ let packageInformationStores = new Map([
         ["rimraf", "2.7.1"],
         ["run-queue", "1.0.3"],
         ["copy-concurrently", "1.0.5"],
-      ]),
-    }],
-  ])],
-  ["aproba", new Map([
-    ["1.2.0", {
-      packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-aproba-1.2.0-6802e6264efd18c790a1b0d517f0f2627bf2c94a-integrity/node_modules/aproba/"),
-      packageDependencies: new Map([
-        ["aproba", "1.2.0"],
       ]),
     }],
   ])],
@@ -12627,17 +12649,9 @@ let packageInformationStores = new Map([
     ["2.1.1", {
       packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-pretty-error-2.1.1-5f4f87c8f91e5ae3f3ba87ab4cf5e03b1a17f1a3-integrity/node_modules/pretty-error/"),
       packageDependencies: new Map([
-        ["utila", "0.4.0"],
         ["renderkid", "2.0.3"],
-        ["pretty-error", "2.1.1"],
-      ]),
-    }],
-  ])],
-  ["utila", new Map([
-    ["0.4.0", {
-      packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-utila-0.4.0-8a16a05d445657a3aea5eecc5b12a4fa5379772c-integrity/node_modules/utila/"),
-      packageDependencies: new Map([
         ["utila", "0.4.0"],
+        ["pretty-error", "2.1.1"],
       ]),
     }],
   ])],
@@ -12658,9 +12672,9 @@ let packageInformationStores = new Map([
     ["1.2.0", {
       packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-css-select-1.2.0-2b3a110539c5355f1cd8d314623e870b121ec858-integrity/node_modules/css-select/"),
       packageDependencies: new Map([
+        ["boolbase", "1.0.0"],
         ["css-what", "2.1.3"],
         ["domutils", "1.5.1"],
-        ["boolbase", "1.0.0"],
         ["nth-check", "1.0.2"],
         ["css-select", "1.2.0"],
       ]),
@@ -12673,6 +12687,14 @@ let packageInformationStores = new Map([
         ["domutils", "1.7.0"],
         ["nth-check", "1.0.2"],
         ["css-select", "2.0.2"],
+      ]),
+    }],
+  ])],
+  ["boolbase", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-boolbase-1.0.0-68dff5fbe60c51eb37725ea9e3ed310dcc1e776e-integrity/node_modules/boolbase/"),
+      packageDependencies: new Map([
+        ["boolbase", "1.0.0"],
       ]),
     }],
   ])],
@@ -12726,14 +12748,6 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["boolbase", new Map([
-    ["1.0.0", {
-      packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-boolbase-1.0.0-68dff5fbe60c51eb37725ea9e3ed310dcc1e776e-integrity/node_modules/boolbase/"),
-      packageDependencies: new Map([
-        ["boolbase", "1.0.0"],
-      ]),
-    }],
-  ])],
   ["nth-check", new Map([
     ["1.0.2", {
       packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-nth-check-1.0.2-b2bd295c37e3dd58a3bf0700376663ba4d9cf05c-integrity/node_modules/nth-check/"),
@@ -12749,6 +12763,14 @@ let packageInformationStores = new Map([
       packageDependencies: new Map([
         ["utila", "0.4.0"],
         ["dom-converter", "0.2.0"],
+      ]),
+    }],
+  ])],
+  ["utila", new Map([
+    ["0.4.0", {
+      packageLocation: path.resolve(__dirname, "../../../snap/code/common/.cache/yarn/v6/npm-utila-0.4.0-8a16a05d445657a3aea5eecc5b12a4fa5379772c-integrity/node_modules/utila/"),
+      packageDependencies: new Map([
+        ["utila", "0.4.0"],
       ]),
     }],
   ])],
@@ -13898,6 +13920,7 @@ let packageInformationStores = new Map([
       packageDependencies: new Map([
         ["next", "9.1.2"],
         ["next-compose-plugins", "2.2.0"],
+        ["prop-types", "15.7.2"],
         ["react", "16.11.0"],
         ["react-dom", "pnp:d0d4cfeb7ed8dd71624977f2a93f381ff7558996"],
         ["styled-components", "4.4.1"],
@@ -13914,6 +13937,7 @@ let packageInformationStores = new Map([
         ["babel-loader", "pnp:841a8aa4d0611cd88c61e58afd2a6bae9c6b0a49"],
         ["babel-plugin-styled-components", "pnp:7b84c364c6ba8836091ec8399d7b1a50aa123c9e"],
         ["typescript", "3.7.2"],
+        ["styled-jsx", "3.2.3"],
       ]),
     }],
   ])],
@@ -14225,6 +14249,7 @@ let locatorsByLocations = new Map([
   ["./.pnp/externals/pnp-64398232986caf7438a07af5d866a0953af50494/node_modules/@babel/plugin-syntax-jsx/", blacklistedLocator],
   ["./.pnp/externals/pnp-3f0d688986b90fc4b2c29d2bca222f869f2ee50b/node_modules/@babel/plugin-syntax-jsx/", blacklistedLocator],
   ["./.pnp/externals/pnp-0eb885aa34c4bc4643e15bf0e8c13b96a804cb6f/node_modules/@babel/plugin-syntax-jsx/", blacklistedLocator],
+  ["./.pnp/externals/pnp-f92b9f7358cf4e743133435a41cf8baaf2bee104/node_modules/stylis-rule-sheet/", blacklistedLocator],
   ["../../../snap/code/common/.cache/yarn/v6/npm-next-9.1.2-ed708301c8265c36006f28672904715e5c592420-integrity/node_modules/next/", {"name":"next","reference":"9.1.2"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-@ampproject-toolbox-optimizer-1.1.1-be66245c966ba9b0f5e3020109f87fea90ea377d-integrity/node_modules/@ampproject/toolbox-optimizer/", {"name":"@ampproject/toolbox-optimizer","reference":"1.1.1"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-@ampproject-toolbox-core-1.1.1-540c8f3ab0f5d1faa1ba35282cd5f5f3f0e16a76-integrity/node_modules/@ampproject/toolbox-core/", {"name":"@ampproject/toolbox-core","reference":"1.1.1"}],
@@ -15025,11 +15050,13 @@ let locatorsByLocations = new Map([
   ["../../../snap/code/common/.cache/yarn/v6/npm-style-loader-1.0.0-1d5296f9165e8e2c85d24eee0b7caf9ec8ca1f82-integrity/node_modules/style-loader/", {"name":"style-loader","reference":"1.0.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-style-loader-0.23.1-cb9154606f3e771ab6c4ab637026a1049174d925-integrity/node_modules/style-loader/", {"name":"style-loader","reference":"0.23.1"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-styled-jsx-3.2.2-03d02d26725195d17b6a979eb8d7c34761a16bf8-integrity/node_modules/styled-jsx/", {"name":"styled-jsx","reference":"3.2.2"}],
+  ["../../../snap/code/common/.cache/yarn/v6/npm-styled-jsx-3.2.3-c3b160a0622c892485103d0fef855347d78b9b67-integrity/node_modules/styled-jsx/", {"name":"styled-jsx","reference":"3.2.3"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-babel-types-6.26.0-a3b073f94ab49eb6fa55cd65227a334380632497-integrity/node_modules/babel-types/", {"name":"babel-types","reference":"6.26.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-babel-runtime-6.26.0-965c7058668e82b55d7bfe04ff2337bc8b5647fe-integrity/node_modules/babel-runtime/", {"name":"babel-runtime","reference":"6.26.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-stylis-3.5.4-f665f25f5e299cf3d64654ab949a57c768b73fbe-integrity/node_modules/stylis/", {"name":"stylis","reference":"3.5.4"}],
   ["./.pnp/externals/pnp-340b3239df19cc8e2616495e8e329a8ec7a4595c/node_modules/stylis-rule-sheet/", {"name":"stylis-rule-sheet","reference":"pnp:340b3239df19cc8e2616495e8e329a8ec7a4595c"}],
   ["./.pnp/externals/pnp-d12011ec2d73070fe6772d40922960485f703c0d/node_modules/stylis-rule-sheet/", {"name":"stylis-rule-sheet","reference":"pnp:d12011ec2d73070fe6772d40922960485f703c0d"}],
+  ["./.pnp/externals/pnp-f92b9f7358cf4e743133435a41cf8baaf2bee104/node_modules/stylis-rule-sheet/", {"name":"stylis-rule-sheet","reference":"pnp:f92b9f7358cf4e743133435a41cf8baaf2bee104"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-terser-4.0.0-ef356f6f359a963e2cc675517f21c1c382877374-integrity/node_modules/terser/", {"name":"terser","reference":"4.0.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-terser-4.3.9-e4be37f80553d02645668727777687dad26bbca8-integrity/node_modules/terser/", {"name":"terser","reference":"4.3.9"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-source-map-support-0.5.16-0ae069e7fe3ba7538c64c98515e35339eac5a042-integrity/node_modules/source-map-support/", {"name":"source-map-support","reference":"0.5.16"}],
@@ -15156,8 +15183,8 @@ let locatorsByLocations = new Map([
   ["../../../snap/code/common/.cache/yarn/v6/npm-stream-each-1.2.3-ebe27a0c389b04fbcc233642952e10731afa9bae-integrity/node_modules/stream-each/", {"name":"stream-each","reference":"1.2.3"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-through2-2.0.5-01c1e39eb31d07cb7d03a96a70823260b23132cd-integrity/node_modules/through2/", {"name":"through2","reference":"2.0.5"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-move-concurrently-1.0.1-be2c005fda32e0b29af1f05d7c4b33214c701f92-integrity/node_modules/move-concurrently/", {"name":"move-concurrently","reference":"1.0.1"}],
-  ["../../../snap/code/common/.cache/yarn/v6/npm-copy-concurrently-1.0.5-92297398cae34937fcafd6ec8139c18051f0b5e0-integrity/node_modules/copy-concurrently/", {"name":"copy-concurrently","reference":"1.0.5"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-aproba-1.2.0-6802e6264efd18c790a1b0d517f0f2627bf2c94a-integrity/node_modules/aproba/", {"name":"aproba","reference":"1.2.0"}],
+  ["../../../snap/code/common/.cache/yarn/v6/npm-copy-concurrently-1.0.5-92297398cae34937fcafd6ec8139c18051f0b5e0-integrity/node_modules/copy-concurrently/", {"name":"copy-concurrently","reference":"1.0.5"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-fs-write-stream-atomic-1.0.10-b47df53493ef911df75731e70a9ded0189db40c9-integrity/node_modules/fs-write-stream-atomic/", {"name":"fs-write-stream-atomic","reference":"1.0.10"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-iferr-0.1.5-c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501-integrity/node_modules/iferr/", {"name":"iferr","reference":"0.1.5"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-run-queue-1.0.3-e848396f057d223f24386924618e25694161ec47-integrity/node_modules/run-queue/", {"name":"run-queue","reference":"1.0.3"}],
@@ -15495,19 +15522,19 @@ let locatorsByLocations = new Map([
   ["../../../snap/code/common/.cache/yarn/v6/npm-relateurl-0.2.7-54dbf377e51440aca90a4cd274600d3ff2d888a9-integrity/node_modules/relateurl/", {"name":"relateurl","reference":"0.2.7"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-uglify-js-3.6.7-15f49211df6b8a01ee91322bbe46fa33223175dc-integrity/node_modules/uglify-js/", {"name":"uglify-js","reference":"3.6.7"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-pretty-error-2.1.1-5f4f87c8f91e5ae3f3ba87ab4cf5e03b1a17f1a3-integrity/node_modules/pretty-error/", {"name":"pretty-error","reference":"2.1.1"}],
-  ["../../../snap/code/common/.cache/yarn/v6/npm-utila-0.4.0-8a16a05d445657a3aea5eecc5b12a4fa5379772c-integrity/node_modules/utila/", {"name":"utila","reference":"0.4.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-renderkid-2.0.3-380179c2ff5ae1365c522bf2fcfcff01c5b74149-integrity/node_modules/renderkid/", {"name":"renderkid","reference":"2.0.3"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-css-select-1.2.0-2b3a110539c5355f1cd8d314623e870b121ec858-integrity/node_modules/css-select/", {"name":"css-select","reference":"1.2.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-css-select-2.0.2-ab4386cec9e1f668855564b17c3733b43b2a5ede-integrity/node_modules/css-select/", {"name":"css-select","reference":"2.0.2"}],
+  ["../../../snap/code/common/.cache/yarn/v6/npm-boolbase-1.0.0-68dff5fbe60c51eb37725ea9e3ed310dcc1e776e-integrity/node_modules/boolbase/", {"name":"boolbase","reference":"1.0.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-css-what-2.1.3-a6d7604573365fe74686c3f311c56513d88285f2-integrity/node_modules/css-what/", {"name":"css-what","reference":"2.1.3"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-domutils-1.5.1-dcd8488a26f563d61079e48c9f7b7e32373682cf-integrity/node_modules/domutils/", {"name":"domutils","reference":"1.5.1"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-domutils-1.7.0-56ea341e834e06e6748af7a1cb25da67ea9f8c2a-integrity/node_modules/domutils/", {"name":"domutils","reference":"1.7.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-dom-serializer-0.2.1-13650c850daffea35d8b626a4cfc4d3a17643fdb-integrity/node_modules/dom-serializer/", {"name":"dom-serializer","reference":"0.2.1"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-domelementtype-2.0.1-1f8bdfe91f5a78063274e803b4bdcedf6e94f94d-integrity/node_modules/domelementtype/", {"name":"domelementtype","reference":"2.0.1"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-domelementtype-1.3.1-d048c44b37b0d10a7f2a3d5fee3f4333d790481f-integrity/node_modules/domelementtype/", {"name":"domelementtype","reference":"1.3.1"}],
-  ["../../../snap/code/common/.cache/yarn/v6/npm-boolbase-1.0.0-68dff5fbe60c51eb37725ea9e3ed310dcc1e776e-integrity/node_modules/boolbase/", {"name":"boolbase","reference":"1.0.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-nth-check-1.0.2-b2bd295c37e3dd58a3bf0700376663ba4d9cf05c-integrity/node_modules/nth-check/", {"name":"nth-check","reference":"1.0.2"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-dom-converter-0.2.0-6721a9daee2e293682955b6afe416771627bb768-integrity/node_modules/dom-converter/", {"name":"dom-converter","reference":"0.2.0"}],
+  ["../../../snap/code/common/.cache/yarn/v6/npm-utila-0.4.0-8a16a05d445657a3aea5eecc5b12a4fa5379772c-integrity/node_modules/utila/", {"name":"utila","reference":"0.4.0"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-htmlparser2-3.10.1-bd679dc3f59897b6a34bb10749c855bb53a9392f-integrity/node_modules/htmlparser2/", {"name":"htmlparser2","reference":"3.10.1"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-domhandler-2.4.2-8805097e933d65e85546f726d60f5eb88b44f803-integrity/node_modules/domhandler/", {"name":"domhandler","reference":"2.4.2"}],
   ["../../../snap/code/common/.cache/yarn/v6/npm-util-promisify-1.0.0-440f7165a459c9a16dc145eb8e72f35687097030-integrity/node_modules/util.promisify/", {"name":"util.promisify","reference":"1.0.0"}],
