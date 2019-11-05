@@ -1,10 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Router from "next/router";
-
-const mockedRouter = { push: () => {}, prefetch: () => {} };
-//@ts-ignore
-Router.router = mockedRouter;
 
 const links = [
   {
@@ -21,7 +16,7 @@ const Nav = () => (
   <nav>
     <ul>
       <li>
-        <Link prefetch href="/">
+        <Link href="/">
           <a>Home</a>
         </Link>
       </li>
