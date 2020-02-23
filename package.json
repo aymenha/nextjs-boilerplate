@@ -24,6 +24,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.13",
     "@storybook/addon-links": "^5.3.13",
+    "@storybook/addon-viewport": "^5.3.13",
     "@storybook/addons": "^5.3.13",
     "@storybook/react": "^5.3.13",
     "@types/node": "^13.7.4",
@@ -34,6 +35,7 @@
     "@types/styled-jsx": "^2.2.8",
     "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.7",
+    "storybook-host": "^5.1.0",
     "typescript": "^3.8.2"
   }
 }
