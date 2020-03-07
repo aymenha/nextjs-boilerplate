@@ -11,31 +11,31 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.3",
+    "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
     "next": "^9.2.2",
     "next-compose-plugins": "^2.2.0",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "styled-components": "^5.0.1",
     "styled-jsx": "^3.2.4"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.13",
-    "@storybook/addon-links": "^5.3.13",
-    "@storybook/addon-viewport": "^5.3.13",
-    "@storybook/addons": "^5.3.13",
-    "@storybook/react": "^5.3.13",
-    "@types/node": "^13.7.4",
-    "@types/react": "^16.9.22",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addon-viewport": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "@types/node": "^13.9.0",
+    "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
     "@types/storybook__react": "^5.2.1",
-    "@types/styled-components": "^5.0.0",
+    "@types/styled-components": "^5.0.1",
     "@types/styled-jsx": "^2.2.8",
     "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.7",
     "storybook-host": "^5.1.0",
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.3"
   }
 }
