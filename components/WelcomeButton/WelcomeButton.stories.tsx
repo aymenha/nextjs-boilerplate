@@ -5,8 +5,7 @@ import WelcomeButton from "./WelcomeButton";
 const Host = host({
   align: "center middle",
   background: true,
-  backdrop: true,
-  width: 800
+  backdrop: true
 });
 
 export const Default = () => <WelcomeButton>hello</WelcomeButton>;
