@@ -11,7 +11,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.7",
+    "@material-ui/core": "^4.9.8",
     "@material-ui/icons": "^4.9.1",
     "next": "^9.3.2",
     "next-compose-plugins": "^2.2.0",
@@ -26,8 +26,8 @@
     "@storybook/addon-viewport": "^5.3.17",
     "@storybook/addons": "^5.3.17",
     "@storybook/react": "^5.3.17",
-    "@types/node": "^12.12.31",
-    "@types/react": "^16.9.26",
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.27",
     "@types/react-dom": "^16.9.5",
     "@types/storybook__react": "^5.2.1",
     "@types/styled-jsx": "^2.2.8",
