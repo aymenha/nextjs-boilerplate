@@ -11,14 +11,12 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@babel/core": "^7.9.0",
     "@material-ui/core": "^4.9.8",
     "@material-ui/icons": "^4.9.1",
     "next": "^9.3.2",
-    "next-compose-plugins": "^2.2.0",
-    "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-jsx": "^3.2.5"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.17",
@@ -30,9 +28,8 @@
     "@types/react": "^16.9.27",
     "@types/react-dom": "^16.9.5",
     "@types/storybook__react": "^5.2.1",
-    "@types/styled-jsx": "^2.2.8",
     "babel-loader": "^8.1.0",
-    "babel-plugin-styled-components": "^1.10.7",
+    "babel-preset-react-app": "^9.1.2",
     "storybook-host": "^5.1.0",
     "typescript": "^3.8.3"
   }
