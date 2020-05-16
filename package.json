@@ -11,26 +11,26 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@babel/core": "^7.9.0",
-    "@material-ui/core": "^4.9.8",
+    "@babel/core": "^7.9.6",
+    "@material-ui/core": "^4.9.14",
     "@material-ui/icons": "^4.9.1",
-    "next": "^9.3.2",
+    "next": "^9.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.17",
-    "@storybook/addon-links": "^5.3.17",
-    "@storybook/addon-viewport": "^5.3.17",
-    "@storybook/addons": "^5.3.17",
-    "@storybook/react": "^5.3.17",
-    "@types/node": "^13.9.5",
-    "@types/react": "^16.9.27",
-    "@types/react-dom": "^16.9.5",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-viewport": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@types/node": "^14.0.1",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
     "@types/storybook__react": "^5.2.1",
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
     "storybook-host": "^5.1.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.2"
   }
 }
