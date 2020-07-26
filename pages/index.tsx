@@ -6,8 +6,8 @@ import WelcomeButton from "../components/WelcomeButton/WelcomeButton";
 
 const useStyles = makeStyles(() => ({
   root: {
-    height: "100vh"
-  }
+    height: "100vh",
+  },
 }));
 
 const Home = () => {
