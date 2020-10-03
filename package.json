@@ -13,27 +13,27 @@
     "prettier:write": "prettier --write ."
   },
   "dependencies": {
-    "@babel/core": "^7.10.5",
+    "@babel/core": "^7.11.6",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "next": "^9.4.4",
+    "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
-    "@types/node": "^14.0.26",
-    "@types/react": "^16.9.43",
+    "@types/node": "^14.11.2",
+    "@types/react": "^16.9.50",
     "@types/react-dom": "^16.9.8",
     "@types/storybook__react": "^5.2.1",
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
-    "prettier": "2.0.5",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
     "storybook-host": "^5.1.0",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.3"
   },
   "husky": {
     "hooks": {
